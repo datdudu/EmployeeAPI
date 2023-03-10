@@ -8,7 +8,7 @@ namespace EmployeeAPI.Models
         public Response GetAllEmployees(SqlConnection connection)
         {
             Response response = new Response();
-            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT * FROM Emplyee", connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT * FROM Employee", connection);
             DataTable dataTable = new DataTable();
             List<Employee> listEmployees = new List<Employee>();
 
@@ -48,7 +48,7 @@ namespace EmployeeAPI.Models
         public Response GetEmployeeById(SqlConnection connection, int id)
         {
             Response response = new Response();
-            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT * FROM Emplyee WHERE ID = '"+id+"' AND IsActive = 1", connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter("SELECT * FROM Employee WHERE ID = '"+id+"' AND IsActive = 1", connection);
             DataTable dataTable = new DataTable();
             Employee employee = new Employee();
 
