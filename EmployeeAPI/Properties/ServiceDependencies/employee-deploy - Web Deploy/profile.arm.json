@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "EmployeeDeploy",
+      "defaultValue": "employee-deploy",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
