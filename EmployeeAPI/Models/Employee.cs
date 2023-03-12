@@ -12,7 +12,7 @@ namespace EmployeeAPI.Models
         [EmailAddress (ErrorMessage = "Invalid email address")]
         public string Email { get; set; }
 
-        [Required(AllowEmptyStrings = false)]
+        [Required]
         [Range(0, 1, ErrorMessage = "Inform if it is Active (1) ou Not Active (0)")]
         public int IsActive { get; set; }
     }
