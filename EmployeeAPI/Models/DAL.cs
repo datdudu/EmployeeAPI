@@ -102,7 +102,7 @@ namespace EmployeeAPI.Models
         public Response UpdateEmployee(SqlConnection connection, Employee employee)
         {
             Response response = new Response();
-            SqlCommand command = new SqlCommand("Update Employee SET Name '" + employee.Name + "' ,Email = '" + employee.Email + "' WHERE ID = '"+ employee.Id +"' ", connection);
+            SqlCommand command = new SqlCommand("UPDATE Employee SET Name ='" + employee.Name + "', Email = '" + employee.Email + "' WHERE ID = '"+ employee.Id +"' ", connection);
 
             connection.Open();
             int isExecuted = command.ExecuteNonQuery();
