@@ -71,5 +71,5 @@ Json de atualização:
 ---
 
 # Funcionamento
-O funcionamento da API é simples e direto. Além de poder rodar o código localmente para usar as funcionalidades, você pode acessar o link de hospedagem para o mesmo objetivo.
+O funcionamento da API é simples e direto. Além de poder rodar o código localmente para usar as funcionalidades, você pode acessar o link de hospedagem para o mesmo objetivo (Atualmente deploy desligado).
 
