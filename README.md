@@ -62,9 +62,9 @@ Json de atualização:
 
 > /api/Employee/GetAllEmployeesById/{id} -- GET Traz um empregado específico
 
-> /api/Employee/AddEmployee -- PUT Adiciona Empregado
+> /api/Employee/AddEmployee -- POST Adiciona Empregado
 
-> /api/Employee/UpdateEmployee -- PATCH Atualiza Empregado específico
+> /api/Employee/UpdateEmployee -- PUT Atualiza Empregado específico
 
 > /api/Employee/DeleteEmployee/{id} -- DELETE Deleta Empregado específico
 
